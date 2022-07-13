@@ -24,10 +24,12 @@ Each row represents an airbnb.
 
 ### Exercise 3
 
-Remove this text, and add your answer for Exercise 3 here.
+The wrap function made everything easier to read and less cramped given the amount of neighborhoods. 
 
 ```{r prices-neighbourhoods}
-# remove this comment and add the code for Exercise 3 here
+ggplot(data = edibnb, mapping = aes(x = price)) +
+  geom_histogram(binwidth = 50) +
+  facet_wrap(~neighbourhood)
 ```
 
 ### Exercise 4
