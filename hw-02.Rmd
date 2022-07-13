@@ -16,11 +16,11 @@ library(dsbox)
 
 ### Exercise 1
 
-Remove this text, and add your answer for Exercise 1 here.
+There are `r nrow(edibnb)` rows in the data set. 
 
 ### Exercise 2
 
-Remove this text, and add your answer for Exercise 2 here.
+Each row represents an airbnb. 
 
 ### Exercise 3
 
